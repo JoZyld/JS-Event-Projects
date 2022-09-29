@@ -11,65 +11,90 @@
     </head>
     <script src="/index.js"></script>
     <body class="p-1 m-3 border-0 bd-example" id="body">
+        <!--Header-->
+
         <div class="p-3 bg-danger text-white text-center">
-            <h1 id="header">javaScript Events</h1>
+            <h1 id="header">javaScript Events</h1> <!--Header Title-->
         </div>
         <h1></h1>
+
+        <!--Row Number 1-->
+
         <div class="row text-center">
+
+            <!--Card Number 1-->
+
             <div class="col-sm-4">
                 <div id="card-1" class="card text-white" style="height: 27rem; background-color: #dc3545;">
                     <div class="card-body">
-                        <h2 class="card-title" id="CT1" onmouseover="changeColor('darkorange', 'CT1', 'serif');" onmouseout="changeColorBack('white', 'CT1', 'verdana')">Press button Number 1</h2>
-                        <h4 class="card-text mb-2 text-white" id="text1">Click the button for a surpise</h4>  
-                        <button type="button" class="btn btn-outline-light btn-lg" id="CT1" onclick="buttonEvent('CT1', 'card-1' ,'text1', 'SURPRISE', 'green')">Button</button>                 
+        <!--Title-->    <h2 class="card-title" id="CT1" onmouseover="changeColor('darkorange', 'CT1', 'serif');" onmouseout="changeColorBack('white', 'CT1', 'verdana')">Press button Number 1</h2>
+        <!--Text-->     <h4 class="card-text mb-2 text-white" id="text1">Click the button for a surpise</h4>  
+        <!--Button-->   <button type="button" class="btn btn-outline-light btn-lg" id="CT1" onclick="buttonEvent('CT1', 'card-1' ,'text1', 'SURPRISE (Press Again)', 'green')">Button</button>                 
                     </div>
                 </div>
             </div>
+
+            <!--Card Number 2-->
+
             <div class="col-sm-4">
                 <div class="card bg-danger text-white" style="height: 27rem;">
                     <div class="card-body">
-                        <h2 class="card-title" id="CT2" onmouseover="changeColor('purple', 'CT2', 'fantasy');" onmouseout="changeColorBack('white', 'CT2', 'verdana')">Press button Number 2</h2>
-                        <h4 class="card-text mb-2 text-white" id="text2">Click the button for a surpise</h4>  
-                        <button type="button" class="btn btn-outline-light btn-lg" id="BtnCT2" onclick="buttonEvent('CT2')">Button</button>                 
+        <!--Title-->    <h2 class="card-title" id="CT2" onmouseover="changeColor('purple', 'CT2', 'fantasy');" onmouseout="changeColorBack('white', 'CT2', 'verdana')">Press button Number 2</h2>
+        <!--Text-->     <h4 class="card-text mb-2 text-white" id="text2">Click the button for a surpise</h4>  
+        <!--Button-->   <button type="button" class="btn btn-outline-light btn-lg" id="BtnCT2" onclick="buttonEvent('CT2')">Button</button>                 
                     </div>
                 </div>
             </div>
+
+            <!--Card Number 3-->
+
             <div class="col-sm-4">
                 <div class="card bg-danger text-white" style="height: 27rem;" id="card">
                     <div class="card-body">
-                        <h2 class="card-title" id="CT3" onmouseover="changeColor('green', 'CT3', 'monospace');" onmouseout="changeColorBack('white', 'CT3', 'verdana')">Press button Number 3</h2>
-                        <h4 class="card-text mb-2 text-white" id="text3">Click the button for a surpise</h4>  
-                        <button type="button" class="btn btn-outline-light btn-lg" id="CT3" onclick="buttonEvent('CT3')">Button</button>                 
+        <!--Title-->    <h2 class="card-title" id="CT3" onmouseover="changeColor('green', 'CT3', 'monospace');" onmouseout="changeColorBack('white', 'CT3', 'verdana')">Press button Number 3</h2>
+        <!--Text-->     <h4 class="card-text mb-2 text-white" id="text3">Click the button for a surpise</h4>  
+        <!--Button-->   <button type="button" class="btn btn-outline-light btn-lg" id="CT3" onclick="buttonEvent('CT3')">Button</button>                 
                     </div>
                 </div>
             </div>
         </div>
         <h1></h1>
+        <!--Row Number 2-->
+
         <div class="row text-center">
+
+            <!--Card Number 4-->
+
             <div class="col-sm-4">
                 <div class="card bg-danger text-white" style="height: 27rem;">
                     <div class="card-body">
-                        <h2 class="card-title" id="CT4" onmouseover="changeColor('midnightblue', 'CT4', 'cursive');" onmouseout="changeColorBack('white', 'CT4', 'verdana')">Press button Number 4</h2>
-                        <h4 class="card-text mb-2 text-white" id="text4">Click the button for a surpise</h4>  
-                        <button type="button" class="btn btn-outline-light btn-lg" id="CT4" onclick="buttonEvent('CT4')">Button</button>                 
+        <!--Title-->    <h2 class="card-title" id="CT4" onmouseover="changeColor('midnightblue', 'CT4', 'cursive');" onmouseout="changeColorBack('white', 'CT4', 'verdana')">Press button Number 4</h2>
+        <!--Text-->     <h4 class="card-text mb-2 text-white" id="text4">Click the button for a surpise</h4>  
+        <!--Button-->   <button type="button" class="btn btn-outline-light btn-lg" id="CT4" onclick="buttonEvent('CT4')">Button</button>                 
                     </div>
                 </div>
             </div>
+
+            <!--Card Number 5-->
+
             <div class="col-sm-4">
                 <div class="card bg-danger text-white" style="height: 27rem;">
                     <div class="card-body">
-                        <h2 class="card-title" id="CT5" onmouseover="changeColor('gold', 'CT5', 'monaco');" onmouseout="changeColorBack('white', 'CT5', 'verdana')">Press button Number 5</h2>
-                        <h4 class="card-text mb-2 text-white" id="text5">Click the button for a surpise</h4>  
-                        <button type="button" class="btn btn-outline-light btn-lg" id="CT5"  onclick="buttonEvent('CT5')">Button</button>                 
+        <!--Title-->    <h2 class="card-title" id="CT5" onmouseover="changeColor('gold', 'CT5', 'monaco');" onmouseout="changeColorBack('white', 'CT5', 'verdana')">Press button Number 5</h2>
+        <!--Text-->     <h4 class="card-text mb-2 text-white" id="text5">Click the button for a surpise</h4>  
+        <!--Button-->   <button type="button" class="btn btn-outline-light btn-lg" id="CT5"  onclick="buttonEvent('CT5')">Button</button>                 
                     </div>
                 </div>
             </div>
+
+            <!--Card Number 6-->
+
             <div class="col-sm-4">
                 <div class="card bg-danger text-white" style="height: 27rem;">
                     <div class="card-body">
-                        <h2 class="card-title" id="CT6" onmouseover="changeColor('aqua', 'CT6', 'papyrus');" onmouseout="changeColorBack('white', 'CT6', 'verdana')">Press button Number 6</h2>
-                        <h4 class="card-text mb-2 text-white" id="text6">Click the button for a surpise</h4>  
-                        <button type="button" class="btn btn-outline-light btn-lg" id="CT6" onclick="buttonEvent('CT6')">Button</button>                 
+        <!--Title-->    <h2 class="card-title" id="CT6" onmouseover="changeColor('aqua', 'CT6', 'papyrus');" onmouseout="changeColorBack('white', 'CT6', 'verdana')">Press button Number 6</h2>
+        <!--Text-->     <h4 class="card-text mb-2 text-white" id="text6">Click the button for a surpise</h4>  
+        <!--Button-->   <button type="button" class="btn btn-outline-light btn-lg" id="CT6" onclick="buttonEvent('CT6')">Button</button>                 
                     </div>
                 </div>
             </div>

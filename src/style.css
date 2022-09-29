@@ -1,0 +1,27 @@
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.p-3{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.btn{
+    border-radius:2em;
+    color: #ffffff;
+    padding: .5em 1.5em;
+    border-bottom-width: 4px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+}
+.p-5, h1{
+    font-size: 70px;
+}
+
+.card-title{
+    margin-top: 100px;
+}
